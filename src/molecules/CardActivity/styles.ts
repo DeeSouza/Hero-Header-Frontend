@@ -12,7 +12,7 @@ export const Container = styled.div`
   padding: 11px;
   overflow: hidden;
 
-  animation: showOnPageCard 0.5s linear forwards;
+  animation: showOnPageCard 0.5s linear forwards 2s;
   opacity: 0;
   top: 50px;
 

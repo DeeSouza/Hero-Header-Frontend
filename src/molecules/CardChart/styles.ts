@@ -11,7 +11,7 @@ export const Container = styled.div`
   box-shadow: 0px 17.5px 28px rgba(0, 0, 0, 0.1);
   padding: 20px;
 
-  animation: showOnPage 0.5s linear forwards;
+  animation: showOnPage 0.5s linear forwards 2s;
   opacity: 0;
   bottom: -50px;
 
@@ -65,7 +65,7 @@ function generateBars() {
                       width: 3.5px;
                       border-radius: 5px;
 
-                      animation: animationHeight 1s linear forwards;
+                      animation: animationHeight 1s linear forwards 2.5s;
                   }
                 }
 
